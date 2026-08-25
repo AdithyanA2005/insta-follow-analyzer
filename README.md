@@ -26,9 +26,12 @@ A local-only web app that analyzes your Instagram followers and following using 
 
 ## Getting Started
 
+Requires [mise](https://mise.jdx.dev) (recommended) or Node.js 24+ and pnpm.
+
 ```bash
-npm install
-npm run dev
+mise install
+pnpm install
+pnpm run dev
 ```
 
 Open the URL shown in your terminal (usually `http://localhost:5173`).
@@ -48,14 +51,15 @@ Open the URL shown in your terminal (usually `http://localhost:5173`).
 - Vite
 - React
 - TypeScript
+- mise for tool version management
 
 ## Scripts
 
 ```bash
-npm run dev      # Start dev server
-npm run build    # Build for production
-npm run preview  # Preview production build
-npm run lint     # Run linter
+pnpm run dev      # Start dev server
+pnpm run build    # Build for production
+pnpm run preview  # Preview production build
+pnpm run lint     # Run linter
 ```
 
 ## Privacy
